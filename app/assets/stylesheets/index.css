@@ -1,21 +1,16 @@
 .wrapper{
-
 }
-  /* .master{
-    height: 100%;
-    width: 100vw;
-  } */
+  .master{
+  }
     .master__main{
-
     }
-
       .master__main__header{
-        height: 15vh;
+        height: 160px;
         width: 100%;
         background-color: navy;
       }
         .master__main__header__top{
-          height: 10vh;
+          height: 120px;
           width: 100%;
           background-color: navy;
           display: flex;
@@ -26,6 +21,7 @@
           width: 25%;
           height: 100%;
           max-width: 300px;
+          min-width: 300px;
         }
         .master__main__header__under{
           height: 5vh;
@@ -34,7 +30,7 @@
         }
 
       .master__main__center{
-        height: 80vh;
+        height: 700px;
         width: 100%;
         background-color: papayawhip;
         /* background-image: url(haimentop.jpeg);
@@ -46,28 +42,27 @@
           justify-content: center;
         }
           .master__main__center__name__frame{
+            margin-top:60px;
             height: 60px;
-            width: 800px;
+            width: 700px;
+            min-width: 500px;
             background-color: white;
             border: solid 3px rgb(140, 140, 140);
-            border-radius: 20px 20px 20px 20px;
+            border-radius: 10px 10px 10px 10px;
             text-align: center;
-            line-height: 60px;
+            line-height: 50px;
             font-size: 30px;
-            /* font-family: "Hiragino Sans";
-            src: local(HiraginoSans-W6);
-            font-weight: 900; */
             font-family:"Hiragino Maru Gothic Pro";
           }
       
         .master__main__center__game{
-          padding: 20px 0 0 0;
+          padding-top: 80px;
           display: flex;
           align-items: center;
           justify-content: center;
         }
           .master__main__center__game__image{
-            height: 500px;
+            min-width: 800px;
             width: 90vw;
             filter: drop-shadow(6px 6px 6px rgba(60,60,60,5));
             border-radius: 20px 20px 20px 20px;
@@ -91,12 +86,12 @@
 
 
       .master__main__footer{
-        height: 15vh;
+        height: 140px;
         width: 100%;
         background-color: navy;       
       }
         .master__main__footer__top{
-          height: 5vh;
+          height: 50px;
           width: 100%;
           background: repeating-linear-gradient(to top, navy, navy 5px, papayawhip 10px);
         }

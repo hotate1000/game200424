@@ -1,0 +1,43 @@
+.slider1{
+  max-width: 1200px;
+}
+  .swiper-wrapper{
+  }
+		.swiper-slide{
+      text-align: center;
+      border-radius: 20px 20px 20px 20px;
+      cursor: pointer;
+    }
+    .aclass{
+      height: 350px;
+      width: 300px;
+      min-height: 250px;
+      min-width: 250px;
+    
+      background-color: black;
+      border: solid 3px rgb(140, 140, 140);
+      border-radius: 20px 20px 20px 20px;
+    }
+    .aclass:hover{
+      background-color:rgb(174, 153, 249);
+      transition: all  0.1s ease;
+      opacity:0.5;
+    }
+
+    .swiper-button-next{
+      border: solid 3px rgb(27, 75, 197);
+      border-radius: 500px 500px 500px 500px;
+      height: 50px;
+      width: 500px;
+      background-color: white; 
+      padding: 20px;
+      
+    }
+		.swiper-button-prev{
+      border: solid 3px rgb(27, 75, 197);
+      border-radius: 500px 500px 500px 500px;
+      height: 50px;
+      width: 500px;
+      background-color:  white; 
+      padding: 20px;
+    }
