@@ -1,2 +1,39 @@
-<h1>Games#index</h1>
-<p>Find me in app/views/games/index.html.erb</p>
+<div class="wrapper">
+  <div class="master">
+
+    <div class="master__main">
+
+      <div class="master__main__header">
+        <div class="master__main__header__top">
+          <%= image_tag 'rogo1.png', class:"rogo"%>
+        </div>
+        <div class="master__main__header__under"></div>
+      </div>
+
+      <div class="master__main__center">    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script> 
+        <div class="master__main__center__name">
+          <div class="master__main__center__name__frame" id="gamename" >
+            <%# <%=render 'gamename'%> 
+
+          <%# <%= content_for :footer do %> %>
+
+          </div>
+        </div>
+        <div class="master__main__center__game">
+          <div class="master__main__center__game__image">
+          </div>
+        </div>
+      </div>
+
+      <div class="master__main__footer">
+        <div class="master__main__footer__top">
+        </div>
+        <div class="master__main__footer__under">
+        </div>          
+      </div>
+
+    </div>
+  </div>
+</div>

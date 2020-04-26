@@ -1,0 +1,111 @@
+.wrapper{
+
+}
+  /* .master{
+    height: 100%;
+    width: 100vw;
+  } */
+    .master__main{
+
+    }
+
+      .master__main__header{
+        height: 15vh;
+        width: 100%;
+        background-color: navy;
+      }
+        .master__main__header__top{
+          height: 10vh;
+          width: 100%;
+          background-color: navy;
+          display: flex;
+          justify-content: center;
+        }
+        .rogo{
+          padding-top:5px;
+          width: 25%;
+          height: 100%;
+          max-width: 300px;
+        }
+        .master__main__header__under{
+          height: 5vh;
+          width: 100%;
+          background: repeating-linear-gradient(to top, navy, navy 5px, papayawhip 10px);
+        }
+
+      .master__main__center{
+        height: 80vh;
+        width: 100%;
+        background-color: papayawhip;
+        /* background-image: url(haimentop.jpeg);
+        background-position: bottom, 50% 10%, center;
+        background-size: cover; */
+      }      
+        .master__main__center__name{
+          display: flex;
+          justify-content: center;
+        }
+          .master__main__center__name__frame{
+            height: 60px;
+            width: 800px;
+            background-color: white;
+            border: solid 3px rgb(140, 140, 140);
+            border-radius: 20px 20px 20px 20px;
+            text-align: center;
+            line-height: 60px;
+            font-size: 30px;
+            /* font-family: "Hiragino Sans";
+            src: local(HiraginoSans-W6);
+            font-weight: 900; */
+            font-family:"Hiragino Maru Gothic Pro";
+          }
+      
+        .master__main__center__game{
+          padding: 20px 0 0 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+          .master__main__center__game__image{
+            height: 500px;
+            width: 90vw;
+            filter: drop-shadow(6px 6px 6px rgba(60,60,60,5));
+            border-radius: 20px 20px 20px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .master__main__center__game__image:hover{
+            /* background-color:rgb(153, 238, 249);
+            transition: all  0.1s ease;
+            opacity:0.6; */
+          }
+            .master__main__center__game__image__photo{
+              height: 250px;
+              width: 100%;
+              /* background-color: rgb(141, 36, 36); */
+              border: solid 1px rgb(0, 0, 0);
+              
+            }
+
+
+      .master__main__footer{
+        height: 15vh;
+        width: 100%;
+        background-color: navy;       
+      }
+        .master__main__footer__top{
+          height: 5vh;
+          width: 100%;
+          background: repeating-linear-gradient(to top, navy, navy 5px, papayawhip 10px);
+        }
+        .master__main__footer__under{
+
+        }
+
+
+
+
+
+
