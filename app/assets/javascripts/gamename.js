@@ -1,12 +1,12 @@
 function mouseover1(){
-  document.getElementById("gamename").innerText = "走る人";
+  document.getElementById("gamename").innerText = "ブロック崩し";
 }
 function mouseout1(){
   document.getElementById("gamename").innerText = "";
 }
 
 function mouseover2(){
-  document.getElementById("gamename").innerText = "ブロック崩し";
+  document.getElementById("gamename").innerText = "ランニングマン";
 }
 function mouseout2(){
   document.getElementById("gamename").innerText = "";

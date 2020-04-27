@@ -12,32 +12,33 @@
       height: 350px;
       width: 300px;
       min-height: 250px;
-      min-width: 250px;
-    
+      min-width: 250px;  
       background-color: black;
       border: solid 3px rgb(140, 140, 140);
+      box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
       border-radius: 20px 20px 20px 20px;
     }
     .aclass:hover{
-      background-color:rgb(174, 153, 249);
+      background-color:rgb(170, 150, 249);
       transition: all  0.1s ease;
       opacity:0.5;
     }
-
-    .swiper-button-next{
+    .swiper-button-next, .swiper-button-prev {
       border: solid 3px rgb(27, 75, 197);
-      border-radius: 500px 500px 500px 500px;
-      height: 50px;
-      width: 500px;
       background-color: white; 
       padding: 20px;
-      
-    }
-		.swiper-button-prev{
-      border: solid 3px rgb(27, 75, 197);
       border-radius: 500px 500px 500px 500px;
-      height: 50px;
-      width: 500px;
-      background-color:  white; 
-      padding: 20px;
+
+      margin: 0 -5px;
+      width: 10px;
     }
+    .swiper-pagination-bullets{
+      margin-top: 200px;
+    }
+    .swiper-pagination-bullet-active.swiper-pagination-bullet-active{
+      background: red;
+      padding:5px;
+      margin: 0 3px;
+      filter: drop-shadow(3px 3px 3px rgba(255,239,213,5));
+    }
+    
