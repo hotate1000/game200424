@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body class=block-body>
+    <div class="block-gamen">
+      <canvas id="block-myCanvas" width="720" height="480"></canvas>
+    </div>
+    <div class=block-sitagamen>
+      <div class="block-modoru">
+        <%= link_to "TOPへ",root_path, {class:"block-modorubtn"} %>  
+        <%= link_to "リセット",blockbreaking_games_path, {class:"block-modorubtn"} %>
+        <%# aタグにするとどうなるか？ %>
+      </div>
+    </div>
+  </body>
+</html>

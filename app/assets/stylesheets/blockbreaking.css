@@ -1,0 +1,42 @@
+.block-body {
+  background-color: #ccc;
+}
+
+.block-gamen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#block-myCanvas {
+  background-color: black;
+  margin: 0 auto;
+  margin: 50px 0 0 0;
+}
+
+.block-sitagamen{
+  display: flex;
+  justify-content: center;
+}
+.block-modoru{
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-modorubtn{
+  display: block;
+  margin: 0 20px 0 20px;
+  height: 40px;
+  width: 80px;
+  background-color: blue;
+  filter: drop-shadow(3px 3px 3px rgba(60,60,60,5));
+  border-radius: 20px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: solid 1px rgb(0, 0, 0);
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}

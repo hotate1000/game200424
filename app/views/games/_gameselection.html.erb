@@ -2,13 +2,12 @@
 	<div class="swiper-wrapper">
 
 		<div class="swiper-slide" onmouseover="mouseover1();" onmouseout="mouseout1();"/>
-			<%= link_to image_tag('burokkukuzusi.png', class:"aclass"),runninggame_games_path%> </div>
+			<%= link_to image_tag('burokkukuzusi.png', class:"aclass",id:"blockbreaking"),blockbreaking_games_path%> </div>
 		<div class="swiper-slide" onmouseover="mouseover2();" onmouseout="mouseout2();"/>
-			<%= link_to image_tag('yamanobori.png', class:"aclass"),blockbreaking_games_path%> </div>
+			<%= link_to image_tag('yamanobori.png', class:"aclass",id:"runningman"),runningman_games_path%> </div>
 		<div class="swiper-slide" onmouseover="mouseover3();" onmouseout="mouseout3();"/>
 			<%= link_to image_tag('batu.png', class:"aclass"),root_path%> </div>
-		<div class="swiper-slide" onmouseover="mouseover4();" onmouseout="mouseout4();"/>
-			<%= link_to image_tag('batu.png', class:"aclass"),root_path%> </div>
+
 	</div>
 	  <div class="swiper-button-prev"></div>
 	<div class="swiper-button-next"></div>
@@ -16,3 +15,24 @@
 
 	<div class="swiper-pagination"></div>
 </div>
+
+<%# <script>
+	window.addEventListener('DOMContentLoaded', function() {
+	var slider1 = new Swiper ('.slider1', {
+		loop: true,
+		initialSlide: -1,
+		spaceBetween: 20,
+		slidesPerView: 3,
+		speed: 500,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev'
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true,
+    },
+	});
+	}, false);
+</script> %>
