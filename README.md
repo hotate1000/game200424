@@ -1,24 +1,28 @@
-# README
+# mygame概要
+<img width="774" alt="rogo1" src="https://user-images.githubusercontent.com/58103579/80366410-30af8c00-88c4-11ea-9c6d-d214212b8e3c.png">
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# 本番環境URL
 
-* Ruby version
 
-* System dependencies
+# 制作経緯
+  未経験からシステムエンジニアを目指し、勉強しております。
+  勉強していく中でJSを活用すると簡単なゲームを作成出来ることを知り、システム関係にあまり詳しくない知人にシステムの勉強をすると短期間でもこような事が出来るよと身近に感じて欲しく、楽しく遊べるゲームアプリを作成してみたいと思い制作しました。
 
-* Configuration
+# 使用技術
+  • html
+  • css
+  • Ruby on Rails
+  • JS
+  • AWS
 
-* Database creation
+# 概要
+## トップページ
+  ゲーム選択画面が表示されます。
+  左右にある矢印を選択するとゲームを選択する事が出来ます。
+  ※今後作成ゲーム数を増やしていく予定です。
+  行いたいゲームにカーソルを合わせると名前が表示されますので、画面の選択ください。
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## ゲーム説明
+  ### ブロック崩し
+    キーボード
