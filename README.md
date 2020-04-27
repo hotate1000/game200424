@@ -35,12 +35,14 @@
 ### ブロック崩しゲーム
   キーボードの ◀️ ▶️ ボタンにてパドルを移動させブロックを壊してください。<br>
   🔽 ボタンにボールを止める事が出来ます。<br>
-  <img width="785" alt="geme" src="https://user-images.githubusercontent.com/58103579/80368106-2a6edf00-88c7-11ea-8917-5da98aa696b2.png">
+  <br>
+<img width="781" alt="aaa" src="https://user-images.githubusercontent.com/58103579/80371320-af102c00-88cc-11ea-953e-dcdcd09e778b.png">
 <br>
 <br>
 
-### ランニングゲーム（実装中）
+### ランニングゲーム（作成中）
   キーボードの 🔼 ボタンにてゲーム開始します。<br>
   ◀️ ▶️ ボタンにてキャラクターを回転させます。<br>
   一定以上傾いた状態で、キャラクターが地面にぶつかるとゲームオーバーとなります。<br>
-<img width="781" alt="aaa" src="https://user-images.githubusercontent.com/58103579/80371320-af102c00-88cc-11ea-953e-dcdcd09e778b.png">
+  <br>
+<img width="792" alt="game2" src="https://user-images.githubusercontent.com/58103579/80372200-1d092300-88ce-11ea-8a8b-c518c80ddc4e.png">
