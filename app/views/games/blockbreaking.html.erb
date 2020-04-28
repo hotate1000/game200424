@@ -31,7 +31,7 @@
       // ⭐️ボールの半径。
 
       var paddleHeight = 10;
-      var paddleWidth = 50;
+      var paddleWidth = 225;
       var paddleX = (canvas.width - paddleWidth)/2;
       // ⭐️ボールがぶつかるパドルの定義。
 
@@ -87,7 +87,7 @@
               // ぶつかるとscoreを1加算する。今回はスコアをつけてない。
               if(score == brickRowCount * brickColumnCount) {
                 // ⭐️スコアーがブロックの縦※横と同じ数になった時、以下の処理を行う。
-                alert("終わり！");
+                alert("ゲームクリア！");
                 document.location.reload();
               }
             }

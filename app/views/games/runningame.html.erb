@@ -5,7 +5,7 @@
     <div class=running-sitagamen>
       <div class="running-modoru">
         <%= link_to "TOPへ",root_path, {class:"running-modorubtn"} %>  
-        <%= link_to "リセット",runningman_games_path, {class:"running-modorubtn"} %>
+        <%= link_to "リセット",runningame_games_path, {class:"running-modorubtn"} %>
       </div>
     </div>
   </body>
@@ -56,7 +56,7 @@
       // 回転スピードを設定する。プレーヤーの角度。
       this.img = new Image();
       // イメージ変数の作成。
-      this.img.src = "/images/moto2.png";
+      this.img.src = "/images/chara.png";
       // image_tag asset_path("MHW.jpg", alt: "ゲーム画像1")
       // イメージの読み込み。画像ファイルから。
       this.draw = function() {

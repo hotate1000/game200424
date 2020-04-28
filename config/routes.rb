@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resource:games do
     collection do
       get "blockbreaking"
-      get "runningman"
+      get "runningame"
     end
   end
 end

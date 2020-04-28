@@ -5,6 +5,6 @@ class GamesController < ApplicationController
   def blockbreaking
   end
 
-  def runningman
+  def runninggame
   end 
 end
