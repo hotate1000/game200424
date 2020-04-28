@@ -2,15 +2,22 @@
     <div class="block-gamen">
       <canvas id="block-myCanvas" width="720" height="480"></canvas>
     </div>
-    <div class=block-sitagamen>
+    <div class="block-sitagamen">
       <div class="block-modoru">
         <%= link_to "TOPへ",root_path, {class:"block-modorubtn"} %>  
         <%= link_to "リセット",blockbreaking_games_path, {class:"block-modorubtn"} %>
-        <%# aタグにするとどうなるか？ %>
       </div>
     </div>
+    <div class="block-textbox">
+      <div class="block-textbox-explanation">
+      <p>
+        操作方法：<br>
+        &nbsp;&nbsp;キーボードの ◀︎ ▶︎ ボタンにてパドルを移動させブロックを壊してください。<br>
+        &nbsp;&nbsp;▼ ボタンにてボールを止める事が出来ます。
+      </p>
+      <div>
+    </div>
   </body>
-
 
   <script>
     $(function(){
