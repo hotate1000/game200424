@@ -58,7 +58,7 @@
       // イメージ変数の作成。
       this.img.src = "/images/moto2.png";
       // image_tag asset_path("MHW.jpg", alt: "ゲーム画像1")
-      // ⭐️イメージの読み込み。画像ファイルから。
+      // イメージの読み込み。画像ファイルから。
       this.draw = function() {
         // draw描画するための関数。
         var p1 = canvas.height - noise(t + this.x) * 0.4;
@@ -74,10 +74,10 @@
           // 落ちてくるスピード。
         } else {
           // 山の斜面に当たると反応する。
-          this.ySpeed = this.ySpeed - (this.y - (p1 - 25));
+          this.ySpeed = this.ySpeed - (this.y - (p1 - 23.5));
           // 振動を与える。バウンドするようになる。
           // 0地点に当たって時におこる処理。
-          this.y = p1 - 23.8;
+          this.y = p1 - 23.5;
           // キャラクターにバウンドを与える。
           // 山の斜面に触れると、this.yとp1が固定される。山ジグザグ式なので、これがないとどんどん落ちいく。
           // 山の斜面に当たるとySpeedが0になる。これ以上落ちなくなる。 
@@ -105,9 +105,9 @@
           this.rot = 0;
           this.rSpeed = this.rSpeed - (angle -this.rot);
         }
-        this.rSpeed = this.rSpeed + (k.ArrowLeft - k.ArrowRight) * 0.7;
+        this.rSpeed = this.rSpeed + (k.ArrowLeft - k.ArrowRight) * 1.2;
         // キーの回転スピード。
-        this.rot = this.rot - this.rSpeed * 0.012;
+        this.rot = this.rot - this.rSpeed * 0.02;
         // プレイヤーの回転スピード。
         if(this.rot > Math.PI) this.rot = -Math.PI;
         if(this.rot < -Math.PI) this.rot = Math.PI;
