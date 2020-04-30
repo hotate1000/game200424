@@ -2,8 +2,12 @@
 <img width="355" alt="rogo1" src="https://user-images.githubusercontent.com/58103579/80366924-14601f00-88c5-11ea-8c0a-c55a70b03edd.png">
 
 
-# 本番環境URL
+# 本番環境URL • パスワード
+### URL
   http://18.180.203.124/
+### パスワード
+  ユーザー名：hogehoge
+  パスワード：11111111 
 <br>
 <br>
 
